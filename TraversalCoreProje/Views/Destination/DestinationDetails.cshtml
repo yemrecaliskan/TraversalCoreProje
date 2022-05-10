@@ -123,7 +123,7 @@
                 <!--//author-card-->
 
 
-                @await Component.InvokeAsync("_CommentList")
+                @await Component.InvokeAsync("_CommentList",new {id=ViewBag.DestinationID})
                 @await Component.InvokeAsync("_AddComment")
 
                 
