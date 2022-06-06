@@ -33,7 +33,7 @@ namespace TraversalCoreProje.Controllers
                 Email = p.Email,
                 UserName = p.UserName
             };
-            if(p.Password==p.ConfirmPassword)
+            if(p.Password==p.ConfirmPassword && p.Password!=null)
             {
                 var result = await _userManager.CreateAsync(appUser, p.Password);
                 if (result.Succeeded)
