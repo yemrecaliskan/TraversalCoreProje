@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\Member-Dashboard\assets\img\logo-ct.png" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\Login-Register\.sass-cache\21880c0ffe15753a53f8402e9f64e1077e071510\style.scssc" />
     <None Include="wwwroot\Login-Register\.sass-cache\2866be86c578bb583fbf023501bb9fd24cc3bf22\extend.scssc" />
     <None Include="wwwroot\Login-Register\.sass-cache\2866be86c578bb583fbf023501bb9fd24cc3bf22\fonts.scssc" />
@@ -396,7 +392,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\Member\Data\" />
-    <Folder Include="Areas\Member\Models\" />
     <Folder Include="wwwroot\Member-Dashboard\.git\objects\info\" />
     <Folder Include="wwwroot\Member-Dashboard\.git\objects\pack\" />
     <Folder Include="wwwroot\Member-Dashboard\.git\refs\tags\" />
