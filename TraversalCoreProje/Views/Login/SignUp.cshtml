@@ -29,36 +29,37 @@
                         <form method="POST" class="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" placeholder="Adınız" asp-for="Name"/>
+                                <input type="text" placeholder="Adınız" asp-for="Name" />
                                 <span asp-validation-for="Name" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" placeholder="Soyadınız" asp-for="Surname"/>
+                                <input type="text" placeholder="Soyadınız" asp-for="Surname" />
                                 <span asp-validation-for="Surname" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="text" placeholder="Mail Adresiniz" asp-for="Email"/>
+                                <input type="text" placeholder="Mail Adresiniz" asp-for="Email" />
                                 <span asp-validation-for="Email" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-phone"></i></label>
-                                <input type="text" placeholder="Kullanıcı Adınız"  asp-for="UserName"/>
+                                <input type="text" placeholder="Kullanıcı Adınız" asp-for="UserName" />
                                 <span asp-validation-for="UserName" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" placeholder="Şifreniz"  asp-for="Password"/>
+                                <input type="password" placeholder="Şifreniz" asp-for="Password" />
                                 <span asp-validation-for="Password" class="text-danger"></span>
                             </div>
+                            <div class="text-danger" asp-validation-summary="ModelOnly"></div>
                             <div class="form-group">
                                 <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-                                <input type="password" placeholder="Şifre Tekrar" asp-for="ConfirmPassword"/>
+                                <input type="password" placeholder="Şifre Tekrar" asp-for="ConfirmPassword" />
                                 <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" class="form-submit" value="Kayıt Ol"/>
+                                <input type="submit" class="form-submit" value="Kayıt Ol" />
                             </div>
                         </form>
                     </div>
