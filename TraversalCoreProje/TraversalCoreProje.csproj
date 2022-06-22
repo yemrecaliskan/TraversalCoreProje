@@ -395,6 +395,7 @@
     <Folder Include="wwwroot\Member-Dashboard\.git\objects\info\" />
     <Folder Include="wwwroot\Member-Dashboard\.git\objects\pack\" />
     <Folder Include="wwwroot\Member-Dashboard\.git\refs\tags\" />
+    <Folder Include="wwwroot\MemberImages\" />
   </ItemGroup>
 
 </Project>
